@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Design System</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+                "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+                "Helvetica Neue", sans-serif;
+            line-height: 1.6;
+            color: #24292e;
+            background-color: #ffffff;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 980px;
+            margin: 0 auto;
+            padding: 45px;
+            background-color: #ffffff;
+        }
+
+        h1 {
+            font-size: 2em;
+            font-weight: 600;
+            padding-bottom: 0.3em;
+            margin-top: 24px;
+        }
+
+        h1:first-child {
+            margin-top: 0;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            font-weight: 600;
+            margin-top: 24px;
+        }
+
+        h3 {
+            font-size: 1.25em;
+            font-weight: 600;
+            margin-top: 24px;
+            margin-bottom: 16px;
+        }
+
+        p {
+            margin-bottom: 16px;
+        }
+
+        ul {
+            padding-left: 2em;
+            margin-bottom: 16px;
+        }
+
+        li {
+            margin-bottom: 4px;
+        }
+
+        hr {
+            height: 0.25em;
+            padding: 0;
+            margin: 24px 0;
+            background-color: #e1e4e8;
+            border: 0;
+        }
+
+        code {
+            padding: 0.2em 0.4em;
+            margin: 0;
+            font-size: 85%;
+            background-color: rgba(27, 31, 35, 0.05);
+            border-radius: 3px;
+            font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo,
+                monospace;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+            }
+
+            h1 {
+                font-size: 1.75em;
+            }
+
+            h2 {
+                font-size: 1.35em;
+            }
+
+            h3 {
+                font-size: 1.15em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Design System</h1>
+
+        <hr />
+
+        <h2>Buttons</h2>
+
+        <h3>Primary Button (Green)</h3>
+        <ul>
+            <li>Background: green-400</li>
+            <li>Hover/Active: green-500</li>
+            <li>Text: white</li>
+            <li>Disabled: 20% opacity</li>
+            <li>Border Radius: rounded-2 (~10-11px)</li>
+        </ul>
+
+        <h3>Danger Button (Red)</h3>
+        <ul>
+            <li>Background: red-100</li>
+            <li>Hover/Active: red-200</li>
+            <li>Text: white</li>
+            <li>Disabled: 20% opacity</li>
+            <li>Border Radius: rounded-2 (~10-11px)</li>
+        </ul>
+
+        <h3>Disabled Button (Any)</h3>
+        <ul>
+            <li>Background: gray-500</li>
+            <li>Text: gray-800</li>
+            <li>Border Radius: rounded-2 (~10-11px)</li>
+        </ul>
+
+        <hr />
+
+        <h2>Inputs & Forms</h2>
+
+        <h3>Text Inputs</h3>
+        <ul>
+            <li>Background: gray-300</li>
+            <li>Background (Hover): gray-400</li>
+            <li>Text Color: gray-700</li>
+            <li>Placeholder: gray-700</li>
+            <li>Font Weight: medium (500)</li>
+            <li>Border: None</li>
+            <li>Border Radius: rounded-2 (~10-11px)</li>
+            <li>Padding: 27px left and right</li>
+        </ul>
+
+        <h3>Form Elements</h3>
+        <ul>
+            <li>Checkbox: gray-700</li>
+            <li>Eye Icon: gray-700 (password toggle)</li>
+        </ul>
+
+        <hr />
+
+        <h2>Icons</h2>
+        <ul>
+            <li>Green Icons: green-400</li>
+            <li>Red Icons: red-100</li>
+            <li>Gray Icons: gray-700</li>
+        </ul>
+
+        <hr />
+
+        <h2>Badges</h2>
+
+        <h3>Green Badge</h3>
+        <ul>
+            <li>Background: green-100</li>
+            <li>Opacity: 20%</li>
+            <li>Text: green-200</li>
+            <li>Use: Positive status, success states</li>
+        </ul>
+
+        <h3>Red Badge</h3>
+        <ul>
+            <li>Background: red-100</li>
+            <li>Opacity: 20%</li>
+            <li>Text: red-100</li>
+            <li>Use: Errors, alerts, warnings</li>
+        </ul>
+
+        <hr />
+
+        <h2>Typography</h2>
+        <ul>
+            <li>Headings: gray-900</li>
+            <li>Subheadings: gray-700</li>
+            <li>Price Text: green-300 (numbers only)</li>
+            <li>Standard Green Text: green-400</li>
+            <li>Register Text: gray-700</li>
+        </ul>
+
+        <hr />
+
+        <h2>Colors & Backgrounds</h2>
+        <ul>
+            <li>Body Background: gray-500</li>
+            <li>Main Background: gray-100</li>
+            <li>
+                Secondary Background: gray-200 (gray background on white background)
+            </li>
+        </ul>
+
+        <hr />
+
+        <h2>Links</h2>
+        <ul>
+            <li>Link Color: blue-100</li>
+            <li>Use: All href/anchor elements</li>
+        </ul>
+    </div>
+</body>
+
+</html>
