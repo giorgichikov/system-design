@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.bundle.css">
+    <script src="./assets/scripts.bundle.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container py-10">
+        <!-- ===================================== -->
+        <!-- HEADER -->
+        <!-- ===================================== -->
+        <div class="mb-10">
+            <h1 class="display-4 fw-bold mb-3">Coinmania Custom Theme Components</h1>
+            <p class="fs-5 text-black">
+                Complete showcase of brand colors, custom components, and form controls
+            </p>
+        </div>
+
+        <!-- ===================================== -->
+        <!-- 1. BUTTONS -->
+        <!-- ===================================== -->
+        <section class="mb-15">
+            <h2 class="fs-2x fw-bold mb-5">1. Buttons</h2>
+
+            <div class="card mb-5">
+                <div class="card-header">
+                    <h3 class="card-title">Brand Buttons</h3>
+                </div>
+                <div class="card-body">
+                    <div class="mb-5">
+                        <button class="btn btn-brand btn-sm rounded-2">Small Brand</button>
+                        <button class="btn btn-brand rounded-2">Default Brand</button>
+                        <button class="btn btn-brand rounded-2" disabled>Disabled Brand</button>
+                        <button class="btn btn-brand btn-lg rounded-2">Large Brand</button>
+                    </div>
+
+                    <div class="d-flex flex-wrap gap-3">
+                        <button class="btn btn-outline btn-outline-brand rounded-2">Outline Brand</button>
+                        <button class="btn btn-light-brand rounded-2">Light Brand</button>
+                        <button class="btn btn-active-brand rounded-2">Active Light Brand</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-5">
+                <div class="card-header">
+                    <h3 class="card-title">Primary Buttons</h3>
+                </div>
+                <div class="card-body">
+                    <div class="mb-5">
+                        <button class="btn btn-primary btn-sm rounded-2">Small Primary</button>
+                        <button class="btn btn-primary rounded-2">Default Primary</button>
+                        <button class="btn btn-primary rounded-2" disabled>Disabled Primary</button>
+                        <button class="btn btn-primary btn-lg rounded-2">Large Primary</button>
+                    </div>
+
+                    <div class="d-flex flex-wrap gap-3">
+                        <button class="btn btn-outline btn-outline-primary rounded-2">Outline Primary</button>
+                        <button class="btn btn-light-primary rounded-2">Light Primary</button>
+                        <button class="btn btn-active-primary rounded-2">Active Light Primary</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="card-title">Danger Buttons</h3>
+                </div>
+                <div class="card-body">
+                    <div class="mb-5">
+                        <button class="btn btn-danger btn-sm rounded-2">Small Danger</button>
+                        <button class="btn btn-danger rounded-2">Default Danger</button>
+                        <button class="btn btn-danger rounded-2" disabled>Disabled Danger</button>
+                        <button class="btn btn-danger btn-lg rounded-2">Large Danger</button>
+                    </div>
+
+                    <div class="d-flex flex-wrap gap-3">
+                        <button class="btn btn-outline btn-outline-danger rounded-2">Outline Danger</button>
+                        <button class="btn btn-light-danger rounded-2">Light Danger</button>
+                        <button class="btn btn-active-danger rounded-2">Active Danger</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================================== -->
+        <!-- 2. COLORS -->
+        <!-- ===================================== -->
+        <section class="mb-15">
+            <h2 class="fs-2x fw-bold mb-5">2. Colors</h2>
+
+            <div class="card mb-5">
+                <div class="card-header">
+                    <h3 class="card-title">Background Colors</h3>
+                </div>
+                <div class="card-body">
+                    <h4 class="fw-bold mb-3">Brand & Theme Backgrounds</h4>
+                    <div class="row g-5 mb-7">
+                        <div class="col-md-6">
+                            <div class="bg-brand text-white p-5 rounded-2 text-center">
+                                <div class="fw-bold fs-4">bg-brand</div>
+                                <div class="fs-7">#0CC47D (green-400)</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="bg-light-brand p-5 rounded-2 text-center">
+                                <div class="fw-bold fs-4 text-brand">bg-light-brand</div>
+                                <div class="fs-7 text-brand">Light version</div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="bg-primary text-white p-5 rounded-2 text-center">
+                                <div class="fw-bold fs-4">bg-primary</div>
+                                <div class="fs-7">#3E97FF</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="bg-light-primary p-5 rounded-2 text-center">
+                                <div class="fw-bold fs-4 text-primary">bg-light-primary</div>
+                                <div class="fs-7 text-primary">Light version</div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="bg-danger text-white p-5 rounded-2 text-center">
+                                <div class="fw-bold fs-4">bg-danger</div>
+                                <div class="fs-7">#DF2626</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="bg-light-danger p-5 rounded-2 text-center">
+                                <div class="fw-bold fs-4 text-danger">bg-light-danger</div>
+                                <div class="fs-7 text-danger">Light version</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h4 class="fw-bold mb-3 mt-14">Gray Scale Backgrounds</h4>
+                    <div class="row g-3">
+                        <div class="col-md-4">
+                            <div class="bg-gray-100 p-3 rounded text-center border">
+                                <div class="fw-semibold">gray-100</div>
+                                <div class="fs-8">#FFFFFF</div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="bg-gray-200 p-3 rounded text-center">
+                                <div class="fw-semibold">gray-200</div>
+                                <div class="fs-8">#FBFBFB</div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="bg-gray-300 p-3 rounded text-center">
+                                <div class="fw-semibold">gray-300</div>
+                                <div class="fs-8">#F8F8F8</div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="bg-gray-400 p-3 rounded text-center">
+                                <div class="fw-semibold">gray-400</div>
+                                <div class="fs-8">#F5F5F5</div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="bg-gray-500 p-3 rounded text-center">
+                                <div class="fw-semibold">gray-500</div>
+                                <div class="fs-8">#F4F6FA</div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="bg-gray-600 p-3 rounded text-center">
+                                <div class="fw-semibold">gray-600</div>
+                                <div class="fs-8">#ECEFF5</div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="bg-gray-700 p-3 rounded text-center text-white">
+                                <div class="fw-semibold">gray-700</div>
+                                <div class="fs-8">#B7B7B7</div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="bg-gray-800 p-3 rounded text-center text-white">
+                                <div class="fw-semibold">gray-800</div>
+                                <div class="fs-8">#5E6278</div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="bg-gray-900 p-3 rounded text-center text-white">
+                                <div class="fw-semibold">gray-900</div>
+                                <div class="fs-8">#000000</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-5">
+                <div class="card-header">
+                    <h3 class="card-title">Text Colors</h3>
+                </div>
+                <div class="card-body">
+                    <h4 class="fw-bold mb-3">Brand & Theme Text Colors</h4>
+                    <div class="mb-5">
+                        <p class="fs-4 text-brand mb-2">text-brand - Brand color text (#0CC47D)</p>
+                        <p class="fs-4 text-primary mb-2">text-primary - Primary text (#3E97FF)</p>
+                        <p class="fs-4 text-danger mb-2">text-danger - Danger text (#DF2626)</p>
+                        <p class="fs-4 text-success mb-2">text-success - Success color text</p>
+                        <p class="fs-4 text-warning mb-2">text-warning - Warning color text</p>
+                    </div>
+
+                    <h4 class="fw-bold mb-3">Green Scale Text Colors</h4>
+                    <div class="bg-light p-5 rounded mb-5">
+                        <p class="fs-5 text-green-100 mb-2">text-green-100 (#EEFBEC)</p>
+                        <p class="fs-5 text-green-200 mb-2">text-green-200 (#75CC68)</p>
+                        <p class="fs-5 text-green-300 mb-2">text-green-300 (#50CD89)</p>
+                        <p class="fs-5 text-green-400 mb-2">text-green-400 (#0CC47D) - Brand base</p>
+                        <p class="fs-5 text-green-500 mb-2">text-green-500 (#009A5E) - Brand active</p>
+                        <p class="fs-5 text-green-600 mb-0">text-green-600 (#3D8130)</p>
+                    </div>
+
+                    <h4 class="fw-bold mb-3">Red Scale Text Colors</h4>
+                    <div class="bg-light p-5 rounded mb-5">
+                        <p class="fs-5 text-red-100 mb-2">text-red-100 (#FE9A9A)</p>
+                        <p class="fs-5 text-red-200 mb-2">text-red-200 (#DF2626)</p>
+                        <p class="fs-5 text-red-300 mb-2">text-red-300 (#C22F2F)</p>
+                    </div>
+
+                    <h4 class="fw-bold mb-3">Blue Scale Text Colors</h4>
+                    <div class="bg-light p-5 rounded mb-5">
+                        <p class="fs-5 text-blue-100 mb-2">text-blue-100 (#DBE7FF)</p>
+                        <p class="fs-5 text-blue-200 mb-2">text-blue-200 (#3E97FF)</p>
+                        <p class="fs-5 text-blue-300 mb-2">text-blue-300 (#1973E8)</p>
+                    </div>
+
+                    <h4 class="fw-bold mb-3">Gray Scale Text Colors</h4>
+                    <div class="bg-light p-5 rounded">
+                        <p class="fs-5 text-gray-100 mb-2">text-gray-100 (#FFFFFF)</p>
+                        <p class="fs-5 text-gray-500 mb-2">text-gray-500 (#F4F6FA)</p>
+                        <p class="fs-5 text-gray-600 mb-2">text-gray-600 (#ECEFF5)</p>
+                        <p class="fs-5 text-gray-700 mb-2">text-gray-700 (#B7B7B7)</p>
+                        <p class="fs-5 text-gray-800 mb-2">text-gray-800 (#5E6278)</p>
+                        <p class="fs-5 text-gray-900 mb-0">text-gray-900 (#000000)</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="card-title">Border Colors</h3>
+                </div>
+                <div class="card-body">
+                    <div class="row g-5">
+                        <div class="col-md-4">
+                            <div class="border border-brand border-3 p-5 rounded-2 text-center">
+                                <div class="fw-bold text-brand">border-brand</div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="border border-primary border-3 p-5 rounded-2 text-center">
+                                <div class="fw-bold text-primary">border-primary</div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="border border-danger border-3 p-5 rounded-2 text-center">
+                                <div class="fw-bold text-danger">border-danger</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================================== -->
+        <!-- 3. COMPONENTS -->
+        <!-- ===================================== -->
+        <section class="mb-15">
+            <h2 class="fs-2x fw-bold mb-5">3. Components</h2>
+
+            <div class="card mb-5">
+                <div class="card-header">
+                    <h3 class="card-title">Badges</h3>
+                </div>
+                <div class="card-body">
+                    <div class="d-flex flex-wrap gap-3">
+                        <span class="badge badge-light-brand">Brand Badge</span>
+                        <span class="badge badge-light-danger">Danger Badge</span>
+                        <span class="badge badge-light-primary">Danger Badge</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-5">
+                <div class="card-header">
+                    <h3 class="card-title">Progress Bars</h3>
+                </div>
+                <div class="card-body">
+                    <div class="d-flex align-items-center mb-2">
+                        <span class="fw-semibold me-2">Brand Progress:</span>
+                        <span class="text-black">50%</span>
+                    </div>
+                    <div class="progress h-15px">
+                        <div class="progress-bar bg-brand" role="progressbar" style="width: 50%"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="card-title">Cards</h3>
+                </div>
+                <div class="card-body">
+                    <div class="row g-5">
+                        <div class="col-md-4">
+                            <div class="card border border-brand">
+                                <div class="card-header bg-brand">
+                                    <h3 class="card-title text-white">Brand Card</h3>
+                                </div>
+                                <div class="card-body">
+                                    <p class="text-black">This card uses the brand color (#0CC47D) for header and
+                                        border.</p>
+                                    <button class="btn btn-brand btn-sm rounded-2">Brand Action</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================================== -->
+        <!-- 4. FORM CONTROLS -->
+        <!-- ===================================== -->
+        <section class="mb-15">
+            <h2 class="fs-2x fw-bold mb-5">4. Form Controls</h2>
+
+            <div class="card mb-5">
+                <div class="card-header">
+                    <h3 class="card-title">Text Inputs - Default Size</h3>
+                </div>
+                <div class="card-body">
+                    <div class="row g-5">
+                        <div class="col-md-6">
+                            <label class="form-label">Text Input (.form-control-gray)</label>
+                            <input type="text" class="form-control form-control-gray"
+                                placeholder="Enter text here..." />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-5">
+                <div class="card-header">
+                    <h3 class="card-title">Text Inputs - Small Size</h3>
+                </div>
+                <div class="card-body">
+                    <div class="row g-5">
+                        <div class="col-md-4">
+                            <label class="form-label">Small Input (.form-control-sm)</label>
+                            <input type="text" class="form-control form-control-sm form-control-gray"
+                                placeholder="Small size input" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-5">
+                <div class="card-header">
+                    <h3 class="card-title">Text Inputs - Large Size</h3>
+                </div>
+                <div class="card-body">
+                    <div class="row g-5">
+                        <div class="col-md-6">
+                            <label class="form-label">Large Input (.form-control-lg)</label>
+                            <input type="text" class="form-control form-control-lg form-control-gray"
+                                placeholder="Large size input" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-5">
+                <div class="card-header">
+                    <h3 class="card-title">Textarea</h3>
+                </div>
+                <div class="card-body">
+                    <div class="row g-5">
+                        <div class="col-md-6">
+                            <label class="form-label">Default Textarea</label>
+                            <textarea class="form-control form-control-gray" rows="4"
+                                placeholder="Enter your message here..."></textarea>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label">Large Textarea</label>
+                            <textarea class="form-control form-control-lg form-control-gray" rows="4"
+                                placeholder="Enter detailed description..."></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-5">
+                <div class="card-header">
+                    <h3 class="card-title">Select Dropdown</h3>
+                </div>
+                <div class="card-body">
+                    <div class="row g-5">
+                        <div class="col-md-4">
+                            <label class="form-label">Small Select</label>
+                            <select class="form-control form-control-sm form-control-gray">
+                                <option>Choose...</option>
+                                <option>Small Option 1</option>
+                                <option>Small Option 2</option>
+                                <option>Small Option 3</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4">
+                            <label class="form-label">Default Select</label>
+                            <select class="form-control form-control-gray">
+                                <option>Choose...</option>
+                                <option>Default Option 1</option>
+                                <option>Default Option 2</option>
+                                <option>Default Option 3</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4">
+                            <label class="form-label">Large Select</label>
+                            <select class="form-control form-control-lg form-control-gray">
+                                <option>Choose...</option>
+                                <option>Large Option 1</option>
+                                <option>Large Option 2</option>
+                                <option>Large Option 3</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-5">
+                <div class="card-header">
+                    <h3 class="card-title">Floating Labels</h3>
+                </div>
+                <div class="card-body">
+                    <div class="row g-5">
+                        <div class="col-md-6">
+                            <div class="form-floating">
+                                <input type="text" class="form-control form-control-gray" id="floatingInput1"
+                                    placeholder="Name" />
+                                <label for="floatingInput1">Full Name</label>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="floatingInput1" placeholder="Name" />
+                                <label for="floatingInput1">Full Name</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-5">
+                <div class="card-header">
+                    <h3 class="card-title">Floating Labels - With Values</h3>
+                </div>
+                <div class="card-body">
+                    <div class="row g-5">
+                        <div class="col-md-6">
+                            <div class="form-floating">
+                                <input type="text" class="form-control form-control-gray" id="floatingValue1"
+                                    placeholder="Name" value="John Doe" />
+                                <label for="floatingValue1">Name (with value)</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-floating">
+                                <input type="email" class="form-control form-control-gray" id="floatingValue2"
+                                    placeholder="email" value="john@example.com" />
+                                <label for="floatingValue2">Email (with value)</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-5">
+                <div class="card-header">
+                    <h3 class="card-title">Validation States</h3>
+                </div>
+                <div class="card-body">
+                    <div class="row g-5 mb-5">
+                        <div class="col-md-6">
+                            <label class="form-label">Valid Input (.is-valid)</label>
+                            <input type="email" class="form-control form-control-gray is-valid"
+                                value="valid@email.com" />
+                            <div class="valid-feedback d-block">Looks good!</div>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label">Invalid Input (.is-invalid)</label>
+                            <input type="email" class="form-control form-control-gray is-invalid"
+                                value="invalid-email" />
+                            <div class="invalid-feedback d-block">Please enter a valid email.</div>
+                        </div>
+                    </div>
+
+                    <h4 class="fw-bold mb-3">Floating Labels with Validation</h4>
+                    <div class="row g-5">
+                        <div class="col-md-6">
+                            <div class="form-floating">
+                                <input type="email" class="form-control form-control-gray is-valid" id="floatingValid"
+                                    placeholder="email" value="valid@email.com" />
+                                <label for="floatingValid">Valid Email</label>
+                                <div class="valid-feedback">Looks good!</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-floating">
+                                <input type="email" class="form-control form-control-gray is-invalid"
+                                    id="floatingInvalid" placeholder="email" value="invalid-email" />
+                                <label for="floatingInvalid">Invalid Email</label>
+                                <div class="invalid-feedback">Please enter a valid email.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-5">
+                <div class="card-header">
+                    <h3 class="card-title">Input States</h3>
+                </div>
+                <div class="card-body">
+                    <div class="row g-5">
+                        <div class="col-md-6">
+                            <label class="form-label">Disabled Input</label>
+                            <input type="text" class="form-control form-control-gray" placeholder="This is disabled"
+                                disabled />
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label">Readonly Input</label>
+                            <input type="text" class="form-control form-control-gray" value="This is readonly"
+                                readonly />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="card-title">Checkboxes</h3>
+                </div>
+                <div class="card-body">
+                    <div class="row g-5">
+                        <div class="col-md-6">
+                            <div class="form-check form-check-brand">
+                                <input class="form-check-input" type="checkbox" id="brandCheckbox1" checked />
+                                <label class="form-check-label text-black" for="brandCheckbox1">
+                                    Brand Checkbox (.form-check-brand)
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================================== -->
+        <!-- 5. SUMMARY -->
+        <!-- ===================================== -->
+        <section class="mb-15">
+            <h2 class="fs-2x fw-bold mb-5">5. Theme Summary</h2>
+
+            <div class="card bg-light-brand border border-brand">
+                <div class="card-body">
+                    <h3 class="text-brand mb-5">✅ Custom Theme Implementation Summary</h3>
+
+                    <div class="row g-5">
+                        <div class="col-md-3">
+                            <h4 class="fw-bold mb-3">Brand Color</h4>
+                            <ul class="list-unstyled">
+                                <li class="mb-2">✓ Base: <code class="text-brand">#0CC47D</code> (green-400)</li>
+                                <li class="mb-2">✓ Active: <code class="text-brand">#009A5E</code> (green-500)</li>
+                                <li class="mb-2">✓ Light: <code>#EEFBEC</code> (green-100)</li>
+                                <li class="mb-2">✓ Inverse: <code>White</code></li>
+                                <li class="mb-2">✓ All button variants</li>
+                                <li class="mb-2">✓ Backgrounds & text</li>
+                                <li>✓ Borders & badges</li>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-3">
+                            <h4 class="fw-bold mb-3">Updated Colors</h4>
+                            <ul class="list-unstyled">
+                                <li class="mb-2">✓ Primary: <code class="text-primary">#3E97FF</code></li>
+                                <li class="mb-2">✓ Danger: <code class="text-danger">#DF2626</code></li>
+                                <li class="mb-2">✓ Danger Active: <code class="text-danger">#C22F2F</code></li>
+                                <li class="mb-2">✓ Gray scale updated</li>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-3">
+                            <h4 class="fw-bold mb-3">Green Scale</h4>
+                            <ul class="list-unstyled">
+                                <li class="mb-2">✓ green-100: <code>#EEFBEC</code></li>
+                                <li class="mb-2">✓ green-200: <code>#75CC68</code></li>
+                                <li class="mb-2">✓ green-300: <code>#50CD89</code></li>
+                                <li class="mb-2">✓ green-400: <code class="text-brand">#0CC47D</code></li>
+                                <li class="mb-2">✓ green-500: <code>#009A5E</code></li>
+                                <li>✓ green-600: <code>#3D8130</code></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-3">
+                            <h4 class="fw-bold mb-3">Red Scale</h4>
+                            <ul class="list-unstyled">
+                                <li class="mb-2">✓ red-100: <code>#FE9A9A</code></li>
+                                <li class="mb-2">✓ red-200: <code class="text-danger">#DF2626</code></li>
+                                <li>✓ red-300: <code>#C22F2F</code></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-3">
+                            <h4 class="fw-bold mb-3">Blue Scale</h4>
+                            <ul class="list-unstyled">
+                                <li class="mb-2">✓ blue-100: <code>#DBE7FF</code></li>
+                                <li class="mb-2">✓ blue-200: <code class="text-primary">#3E97FF</code></li>
+                                <li>✓ blue-300: <code>#1973E8</code></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-3">
+                            <h4 class="fw-bold mb-3">Form Controls</h4>
+                            <ul class="list-unstyled">
+                                <li class="mb-2">✓ Form control gray variant</li>
+                                <li class="mb-2">✓ Floating labels support</li>
+                                <li class="mb-2">✓ Validation states (is-valid/is-invalid)</li>
+                                <li class="mb-2">✓ Brand checkboxes</li>
+                                <li class="mb-2">✓ Size variants (sm/lg)</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="separator my-5"></div>
+
+                    <h4 class="fw-bold mb-3">Available CSS Classes:</h4>
+                    <div class="row g-3">
+                        <div class="col-md-3">
+                            <div class="bg-white p-3 rounded">
+                                <strong>Buttons:</strong><br>
+                                <code>.btn-brand</code><br>
+                                <code>.btn-outline-brand</code><br>
+                                <code>.btn-light-brand</code><br>
+                                <code>.btn-active-brand</code>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="bg-white p-3 rounded">
+                                <strong>Backgrounds:</strong><br>
+                                <code>.bg-brand</code><br>
+                                <code>.bg-light-brand</code><br>
+                                <code>.bg-gray-100 to 900</code>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="bg-white p-3 rounded">
+                                <strong>Text & Borders:</strong><br>
+                                <code>.text-brand</code><br>
+                                <code>.text-green-100 to 600</code><br>
+                                <code>.text-red-100 to 300</code><br>
+                                <code>.text-blue-100 to 300</code><br>
+                                <code>.border-brand</code>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="bg-white p-3 rounded">
+                                <strong>Forms & Components:</strong><br>
+                                <code>.form-control-gray</code><br>
+                                <code>.form-check-brand</code><br>
+                                <code>.is-valid</code><br>
+                                <code>.is-invalid</code><br>
+                                <code>.badge-light-brand</code><br>
+                                <code>.badge-light-primary</code><br>
+                                <code>.badge-light-danger</code>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+</body>
+
+</html>
